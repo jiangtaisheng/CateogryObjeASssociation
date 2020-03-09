@@ -14,6 +14,11 @@
 		8C74CA3622827E9500AFF04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C74CA3422827E9500AFF04D /* LaunchScreen.storyboard */; };
 		8C74CA3922827E9500AFF04D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C74CA3822827E9500AFF04D /* main.m */; };
 		8C74CA4322827E9500AFF04D /* Cateogry____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C74CA4222827E9500AFF04D /* Cateogry____UITests.m */; };
+		8C74CA4F22827EFB00AFF04D /* PersonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C74CA4E22827EFB00AFF04D /* PersonClass.m */; };
+		8C74CA5222827F5800AFF04D /* PersonClass+StudentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C74CA5122827F5800AFF04D /* PersonClass+StudentClass.m */; };
+		8C74CA542282C26F00AFF04D /* DownloadResources.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C74CA532282C26F00AFF04D /* DownloadResources.deb */; };
+		8C74CA572282F90C00AFF04D /* FileMangerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C74CA562282F90C00AFF04D /* FileMangerClass.m */; };
+		8C74CA592283BF4400AFF04D /* test1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8C74CA582283BF4400AFF04D /* test1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,14 @@
 		8C74CA3E22827E9500AFF04D /* Cateogry对象关联UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cateogry对象关联UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C74CA4222827E9500AFF04D /* Cateogry____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cateogry____UITests.m"; sourceTree = "<group>"; };
 		8C74CA4422827E9500AFF04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C74CA4D22827EFB00AFF04D /* PersonClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonClass.h; sourceTree = "<group>"; };
+		8C74CA4E22827EFB00AFF04D /* PersonClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonClass.m; sourceTree = "<group>"; };
+		8C74CA5022827F5800AFF04D /* PersonClass+StudentClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonClass+StudentClass.h"; sourceTree = "<group>"; };
+		8C74CA5122827F5800AFF04D /* PersonClass+StudentClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PersonClass+StudentClass.m"; sourceTree = "<group>"; };
+		8C74CA532282C26F00AFF04D /* DownloadResources.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = DownloadResources.deb; sourceTree = "<group>"; };
+		8C74CA552282F90C00AFF04D /* FileMangerClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileMangerClass.h; sourceTree = "<group>"; };
+		8C74CA562282F90C00AFF04D /* FileMangerClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileMangerClass.m; sourceTree = "<group>"; };
+		8C74CA582283BF4400AFF04D /* test1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C74CA542282C26F00AFF04D /* DownloadResources.deb in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +95,18 @@
 		8C74CA2822827E9200AFF04D /* Cateogry对象关联 */ = {
 			isa = PBXGroup;
 			children = (
+				8C74CA532282C26F00AFF04D /* DownloadResources.deb */,
+				8C74CA582283BF4400AFF04D /* test1.txt */,
 				8C74CA2922827E9200AFF04D /* AppDelegate.h */,
 				8C74CA2A22827E9200AFF04D /* AppDelegate.m */,
 				8C74CA2C22827E9200AFF04D /* ViewController.h */,
 				8C74CA2D22827E9200AFF04D /* ViewController.m */,
+				8C74CA552282F90C00AFF04D /* FileMangerClass.h */,
+				8C74CA562282F90C00AFF04D /* FileMangerClass.m */,
+				8C74CA4D22827EFB00AFF04D /* PersonClass.h */,
+				8C74CA4E22827EFB00AFF04D /* PersonClass.m */,
+				8C74CA5022827F5800AFF04D /* PersonClass+StudentClass.h */,
+				8C74CA5122827F5800AFF04D /* PersonClass+StudentClass.m */,
 				8C74CA2F22827E9200AFF04D /* Main.storyboard */,
 				8C74CA3222827E9500AFF04D /* Assets.xcassets */,
 				8C74CA3422827E9500AFF04D /* LaunchScreen.storyboard */,
@@ -183,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C74CA592283BF4400AFF04D /* test1.txt in Resources */,
 				8C74CA3622827E9500AFF04D /* LaunchScreen.storyboard in Resources */,
 				8C74CA3322827E9500AFF04D /* Assets.xcassets in Resources */,
 				8C74CA3122827E9200AFF04D /* Main.storyboard in Resources */,
@@ -203,8 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C74CA572282F90C00AFF04D /* FileMangerClass.m in Sources */,
 				8C74CA2E22827E9200AFF04D /* ViewController.m in Sources */,
+				8C74CA4F22827EFB00AFF04D /* PersonClass.m in Sources */,
 				8C74CA3922827E9500AFF04D /* main.m in Sources */,
+				8C74CA5222827F5800AFF04D /* PersonClass+StudentClass.m in Sources */,
 				8C74CA2B22827E9200AFF04D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +395,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cateogry对象关联",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AK.Cateogry----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,6 +414,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cateogry对象关联",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AK.Cateogry----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
